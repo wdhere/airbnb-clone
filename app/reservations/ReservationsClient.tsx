@@ -13,7 +13,7 @@ import ListingCard from "../components/listings/ListingCard";
 
 interface ReservationsClientProps {
   reservations: SafeReservation[];
-  currentUser: SafeUser | null;
+  currentUser?: SafeUser | null;
 }
 
 const ReservationsClient: React.FC<ReservationsClientProps> = ({
